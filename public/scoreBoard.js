@@ -12,7 +12,7 @@ var ScoreBoard = React.createClass({
 			</div>);
 	},
 	setMovement: function(v) {
-		this.setState({score: v});
+		this.setState({movements: v});
 	},
 	reset: function() {
 		this.setState({movements: 0, score: 0});
